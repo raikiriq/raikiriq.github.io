@@ -1,28 +1,42 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+		<AppHeader/>
+		<v-main class="grey lighten-2">
+			<v-container fluid >
+				<router-view></router-view>
+			</v-container>
+		</v-main>
+
+		<v-footer app padless absolute color="green lighten-3">
+			<v-col
+					class="text-center"
+					cols="12"
+			>
+				{{ new Date().getFullYear() }} — <strong>Кирилл Долгачев, Денис Токмашов</strong>
+			</v-col>
+		</v-footer>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import AppHeader from "@/components/AppHeader";
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+	components:{
+		AppHeader
+	},
+
+  data: () => ({
+    //
+  }),
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.v-application a {
+	color: inherit !important;
+	text-decoration: none;
 }
 </style>
