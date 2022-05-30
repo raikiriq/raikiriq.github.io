@@ -128,11 +128,11 @@
 				<tbody>
 				<tr>
 					<td>Средний вес коров</td>
-					<td class="text-center">600-820 кг</td>
+					<td class="text-center">600 - 820 кг</td>
 				</tr>
 				<tr>
 					<td>Средний вес быков</td>
-					<td class="text-center">до 1000-1200 кг</td>
+					<td class="text-center">до 1000 - 1200 кг</td>
 				</tr>
 				<tr>
 					<td>Количество молока за лактационный период</td>
@@ -144,7 +144,7 @@
 				</tr>
 				<tr>
 					<td>Убойный выход</td>
-					<td class="text-center">52-58%</td>
+					<td class="text-center">52 - 58%</td>
 				</tr>
 
 				</tbody>
@@ -203,6 +203,59 @@
 		<v-card-text class="body-1">
 			Животное нуждается в достаточно просторном жилье. Коров следует регулярно чистить специальными щетками, после каждого доения мыть вымя. Отлично переносят жару и холод, нормально воспринимают продолжительные переходы от одного пастбища к другому.
 		</v-card-text>
+		<v-img src="https://ferma.expert/wp-content/uploads/2018/06/1-607.webp" height="350" position="center"></v-img>
+
+
+		<v-card-title class="text-h5">5. Голштинская</v-card-title>
+		<v-card-text class="body-1">
+			Голштинская порода коров является результатом длительной селекционной работы. Она славится не только большими удоями, но и массивными тушками бычков и буренок.
+			<br><br>
+			Отличительной чертой породы является массивное туловище со среднеразвитой мускулатурой, длинные конечности с крепкими суставами, глубокая и широкая грудь, узкая шея.
+			<br><br>
+			Продуктивность породы:
+		</v-card-text>
+		<v-simple-table class="mx-auto body-1">
+			<template v-slot:default>
+				<thead>
+				<tr bgcolor="#A5D6A7">
+					<th class="text-center">
+						Данные породы
+					</th>
+					<th class="text-center">
+						Показатели
+					</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>Средний вес коров</td>
+					<td class="text-center">700 кг</td>
+				</tr>
+				<tr>
+					<td>Средний вес быков</td>
+					<td class="text-center">900-1200 кг</td>
+				</tr>
+				<tr>
+					<td>Количество молока за лактационный период</td>
+					<td class="text-center">7500-10000 л</td>
+				</tr>
+				<tr>
+					<td>Жирность молока</td>
+					<td class="text-center">3,1 - 3,8%</td>
+				</tr>
+				<tr>
+					<td>Убойный выход</td>
+					<td class="text-center">50 - 55%</td>
+				</tr>
+
+				</tbody>
+			</template>
+		</v-simple-table>
+		<v-card-text class="body-1">
+			Голштины – коровы, которые довольно чувствительны к условиям содержания. Они нуждаются в просторном, чистом, сухом и теплом коровнике без сквозняков. Достоинством породы считают быстрый рост. Достигают половой зрелости уже к году жизни – это значительно сокращает непродуктивный период жизни.
+		</v-card-text>
+		<v-img src="https://ferma.expert/wp-content/uploads/2018/06/golshtinskaya-poroda-korov-1.webp" height="350" position="center top"></v-img>
+
 	</v-card>
 </template>
 

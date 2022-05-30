@@ -42,7 +42,7 @@ export default {
 
 <style scoped lang="scss">
 .header {
-	color: azure;
+	color: black;
 	&__title {
 		font-size: 30px;
 	}
