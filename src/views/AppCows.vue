@@ -1,7 +1,7 @@
 <template>
 	<v-card
 			class="mx-auto pa-2"
-			max-width="900"
+			max-width="800"
 			rounded
 	>
 		<v-card-title class="text-h4">Виды коров в Удмуртии</v-card-title>

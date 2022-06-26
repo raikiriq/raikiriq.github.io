@@ -1,7 +1,7 @@
 <template>
 	<v-card
 			class="home mx-auto pa-2"
-			max-width="900"
+			max-width="800"
 			rounded
 	>
 		<v-card-title class="text-h4">Cорта пшеницы в Удмуртии</v-card-title>
