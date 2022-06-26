@@ -4,7 +4,7 @@
 			max-width="900"
 			rounded
 	>
-		<v-card-title class="text-h4">Распространенные сорта пшеницы по видам</v-card-title>
+		<v-card-title class="text-h4">Cорта пшеницы в Удмуртии</v-card-title>
 		<v-card-text class="body-1">
 			На сегодняшний день существует большое количество сортов пшеницы. Они делятся по видам: озимые и яровые, мягкие и твёрдые, отличаются по срокам и условиям созревания. Их списки не перестают пополняться новыми разработками селекционеров. Более подробно ознакомиться с распространенными сортами можно в данной статье.
 		</v-card-text>
@@ -82,32 +82,6 @@
 						4) как правило, используется для приготовления выпечки.<br>
 						Плодоношение сорта начинается через 90 дней после посева.
 							<v-img class="mt-2" src="https://ferma.expert/wp-content/uploads/2018/10/pshenitsa-sort-iren-6-1024x576.webp" height="250"></v-img>
-					</v-expansion-panel-content>
-				</v-expansion-panel>
-				<v-expansion-panel>
-					<v-expansion-panel-header class="text-h6 font-weight-regular">
-						Новосибирская 31
-					</v-expansion-panel-header>
-					<v-expansion-panel-content>
-						1) вес 1000 зёрен составляет примерно 35 г;<br>
-						2) имеет высокую пищевую ценность;<br>
-						3) устойчив ко многим известным заболеваниям;<br>
-						4) урожайность небольшая, около 36 ц/га.<br>
-						Созревание происходит в период до 100 дней.
-						<v-img class="mt-2" src="https://ferma.expert/wp-content/uploads/2018/10/f3b93cfd12eaf394460de05fcd20dd03.webp" height="250"></v-img>
-					</v-expansion-panel-content>
-				</v-expansion-panel>
-				<v-expansion-panel>
-					<v-expansion-panel-header class="text-h6 font-weight-regular">
-						Саратовская 7
-					</v-expansion-panel-header>
-					<v-expansion-panel-content>
-						1) колос белого цвета, безостый;<br>
-						2) у зёрен нежный белый цвет;<br>
-						3) урожайность составляет примерно 45 ц/га;<br>
-						4) устойчив ко многим заболеваниям.<br>
-						Урожай можно получить через 90 дней после посева.
-						<v-img class="mt-2" src="https://ferma.expert/wp-content/uploads/2018/10/gluten-825x510.webp" height="250"></v-img>
 					</v-expansion-panel-content>
 				</v-expansion-panel>
 				<v-expansion-panel>
